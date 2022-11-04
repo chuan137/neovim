@@ -1,7 +1,12 @@
-local v = {}
+return {
 
-v.opt = {
-  relativenumber = true,
+  opt = {
+    relativenumber = true,
+    termguicolors = true,
+  },
+
+  g = {
+    loaded_netrw = 1,
+    loaded_netrwPlugin = 1,
+  },
 }
-
-return v
